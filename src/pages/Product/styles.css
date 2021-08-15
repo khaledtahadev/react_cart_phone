@@ -1,0 +1,26 @@
+.product__product-Wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+.product__img {
+	max-width: 400px;
+	height: auto;
+	object-fit: cover;
+}
+.product__details {
+	padding: 1rem;
+	flex: 1;
+}
+.product__compony {
+	font-size: 1.5rem;
+	font-weight: 500;
+	color: var(--redColor);
+	text-transform: uppercase;
+}
+.product__info {
+	color: #333;
+	font-weight: bold;
+}
+.product__info span {
+	font-weight: 500;
+}

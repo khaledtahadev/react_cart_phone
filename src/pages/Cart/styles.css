@@ -1,0 +1,31 @@
+.cart__wrapper {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.cart__items {
+	width: 100%;
+	padding: 1rem;
+}
+@media (min-width: 768px) {
+	.cart__items {
+		width: 70%;
+		padding: 1rem;
+	}
+}
+.cart__wrapper > div:last-of-type {
+	width: 50%;
+	margin: 1rem auto 0;
+}
+@media (min-width: 768px) {
+	.cart__wrapper > div:last-of-type {
+		width: 20%;
+	}
+}
+.cart__no-products {
+	text-align: center;
+	font-size: 1.5rem;
+	font-weight: bold;
+	color: #333;
+}

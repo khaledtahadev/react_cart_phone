@@ -1,0 +1,41 @@
+.navbar {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem;
+	background-color: var(--blueBgColor);
+	box-shadow: 0 0 0.2rem 0 rgba(0, 0, 0, 0.5);
+}
+.navbar a {
+	text-decoration: none;
+	color: #f3f3f3;
+}
+.navbar__logo {
+	font-size: 1.7rem;
+	margin: 0;
+	text-transform: capitalize;
+}
+.navbar__nav-link {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+.navbar__nav-link--iconBaskets {
+	padding: 0.2rem 0.6rem;
+	border-radius: 4px;
+	background-color: var(--darkBgColor);
+	position: relative;
+}
+.navbar__items-counter {
+	display: block;
+	width: 1.5rem;
+	height: 1.5rem;
+	color: #f3f3f3;
+	border: 1px solid var(--redColor);
+	position: absolute;
+	top: -0.7rem;
+	right: -0.8rem;
+	border-radius: 50%;
+	text-align: center;
+	font-size: 1.2rem;
+	background-color: var(--redColor);
+}

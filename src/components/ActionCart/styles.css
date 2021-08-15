@@ -1,0 +1,19 @@
+.actionCart {
+	background-color: var(--darkBgColor);
+	padding: 10px;
+	border-radius: 4px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	box-shadow: 0 0 0.2rem 0 rgba(0, 0, 0, 0.3);
+}
+.actionCart__total {
+	font-weight: bold;
+	color: #f3f3f3;
+}
+.actionCart__total > span {
+	font-weight: 500;
+}
+.actionCart > button:first-of-type {
+	margin: 1rem 0;
+}

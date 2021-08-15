@@ -1,0 +1,17 @@
+.button {
+	border: none;
+	padding: 0.5rem 0.8rem;
+	border-radius: 3px;
+	cursor: pointer;
+	color: #f3f3f3;
+	box-shadow: 0 0 0.2rem 0 rgba(0, 0, 0, 0.3);
+}
+.button--bg-blue {
+	background-color: var(--blueBgColor);
+}
+.button--bg-dark {
+	background-color: var(--darkBgColor);
+}
+.button--bg-warring {
+	background-color: var(--redColor);
+}
